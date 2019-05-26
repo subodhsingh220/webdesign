@@ -1,0 +1,62 @@
+Linex Help
+
+cd 
+mkdir
+ls,
+ll
+
+
+Create new file
+touch filename.txt
+
+Open file 
+cat > filename.txt (in TM)
+gedit filename.txt( in Editer like notepad++ etc)
+
+ctrl + c to terminate / save 
+
+
+
+Git Commands
+
+git config -- global user.email "subodh.kumar@apperaluae.com"
+
+git congig -- global user.name "Subodh Kumar"
+
+
+1) git init
+2) git add [filename] || -A
+3) git status
+4) git commit -m "Msg"
+5) git remote add origin repoName
+6) git push origin master
+
+1) git clone repoName
+2) git pull origin master
+
+Branch 
+
+git branch
+ eg 
+	# master
+git branch branchname
+
+ eg 
+	git branch ebay2
+git checkout branchname
+ eg
+	git branch ebay2
+
+work all and push to ebay2
+
+to marge to master
+
+git checkout master
+
+git marge ebay2
+
+
+
+git log
+
+
